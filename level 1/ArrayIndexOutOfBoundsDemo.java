@@ -17,8 +17,8 @@ public class ArrayIndexOutOfBoundsDemo {
         int n = sc.nextInt();
         String[] arr = new String[n];
         for (int i = 0; i < n; i++) arr[i] = sc.next();
-        int idx = sc.nextInt();
+        int i = sc.nextInt();
        
-        handleException(arr, idx);
+        handleException(arr, i);
     }
 }
